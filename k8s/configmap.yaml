@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: micro-calc-config
+  namespace: micro-calc
+data:
+  TZ: "America/La_Paz"
